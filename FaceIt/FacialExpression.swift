@@ -15,6 +15,7 @@ struct FacialExpression {
         case squinting
     }
     
+    //rawValue原始值自动递增
     enum Mouth: Int {
         case frown
         case smirk
